@@ -1,0 +1,17 @@
+:root {
+    --body-background-color: #022859;
+    --git-status-link: #25A4FF;
+    --git-hline: #25A4FF;
+    --main-header: #B0D5FF;
+    --project-header: #B0D5FF;
+    --file-box-shadow: #B0D5FF;
+    --project-code: #C9DDF9;
+    --project-code-line: #C9DDF9;
+    --person-name: #25A4FF;
+    --person-date: #B0D5FF;
+    --project-description: #B0D5FF;
+    /* nicht ändern, bringt nichts */
+    --banner-radial-start: black; 
+    --banner-radial-end: #B0D5FF;
+    --banner-text: #25A4FF;
+  }

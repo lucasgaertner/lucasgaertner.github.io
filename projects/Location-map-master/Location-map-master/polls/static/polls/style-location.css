@@ -1,0 +1,17 @@
+svg{
+    /* position: relative; */
+    /* margin-left: 30%; */
+}
+
+#datavisualization{
+    position: relative;
+    margin-left: 30%;
+}
+
+#split{
+    background-color: lightblue;
+    border: none;
+    color: white;
+    font-size: 15pt;
+    padding: 5pt;
+}

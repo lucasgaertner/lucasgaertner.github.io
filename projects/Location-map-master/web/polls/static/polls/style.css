@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #555;
+  }
+  
+  #globe {
+    cursor: move;  
+    background-color: darkgrey;
+  }
+  
+  #current {
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 4%;
+    margin-top: 4%;
+  }
+  
+  .country {
+
+    stroke: black;
+    stroke-width: 0.9px;
+  }

@@ -1,0 +1,402 @@
+:root {
+    --body-background-color: #B4D9D5;
+    --git-status-link: #027368;
+    --git-hline: #F2F2F2;
+    --main-header: #027368;
+    --project-header: #027368;
+    --file-box-shadow: #027368;
+    --project-code: #58A69E;
+    --project-code-line: #58A69E;
+    --person-name: #027368;
+    --person-date: white;
+    --project-description: #027368;
+    /* nicht ändern, bringt nichts */
+    --skill-border: #027368; 
+    --skill-background: #027368;
+    --skill-text: #F2F2F2;
+    --font-family: 'EB Garamond', serif;
+  }
+* {
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: var(--body-background-color);
+}
+
+#main{
+    position: relative;
+    float: right;
+    height: 98%;
+}
+
+.background{
+    position: relative;
+    height: 98%
+}
+
+.background.text{
+    position: relative;
+    height: 20%;
+    width: 100%;
+    color: white;
+    font-family: var(--font-family);
+    z-index: 1;
+    margin-top: -21%;
+    font-size: 15vw;
+    text-shadow: -1px -5px 7px #2c3531;
+    opacity: 0.2;
+} 
+
+#home,#about,#contact
+{
+ margin-top:100px;
+ width:90%;
+ height:400px;
+ margin-left:5%;
+ padding:50px;
+ box-sizing:border-box;
+ background-color:#084B8A;
+ border-radius:10px;
+ color:white;
+}
+
+/* social Links  */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+@media screen and (max-device-width: 800px) {
+    .background{
+        display: none;
+    }
+
+    .description {
+        position: relative;
+        width: 78%;
+        margin-top: -7%;
+        margin-left: 8%;
+        margin-right: 3%;
+        left: 6%;
+        z-index: 8;
+        font-size: 3.8vw;
+        font-family: var(--font-family);
+        font-weight: bold;
+        background-color: transparent;
+        color: white;
+        opacity: .4;
+        padding: 8pt;
+        box-shadow: 12pt 12pt 0pt transparent;
+    }
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+    .des{
+        font-size: 4vw;
+        color: gray;
+    }
+
+    .center {
+        position: relative;
+        display: table;
+        width: 100%;
+        height: 100vh;
+        top: -35%;
+        right: 0%;
+    }
+
+    .project_1,.project_2,.project_3,.project_4{
+        float: left;
+        height: 100%;
+        width: 100%;
+    }
+    #project_4{
+        position: relative;
+        top: 7%;
+    }
+}
+
+.wrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 100%; 
+    margin-bottom: -7em;
+    background-color: var(--body-background-color);
+    z-index: -1;
+}
+.git{
+    position: relative;
+    height: 15%;
+}
+
+.status{
+    position: relative;
+    font-family: var(--font-family);
+    height: 70%;
+    width: 60%;
+    margin-top: 4%;
+    right: -10%;
+    float: right;
+    font-size: 6vw;
+}
+
+.logo{
+    position: relative;
+    margin-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    float: left;
+    height: 82%;
+}
+
+.link{
+    position: relative;
+    color: var(--git-status-link);
+    width: 32%;
+    float: left;
+    padding: 11px 16px;
+    margin: 1px;
+}
+.link.intro{
+    width: 40%;
+    height: 50%;
+    left: -2%;
+}
+
+hr{
+    border-top: 2px solid var(--git-hline); 
+}
+
+.header{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    z-index: 7;
+}
+
+.heading{
+    position: relative;
+    font-family: var(--font-family);
+    font-size: 5em;
+    font-weight: bold;
+    color: var(--main-header);
+    margin-TOP: 3%;
+    margin-left: 7%;
+    margin-bottom: 3%;
+    padding-top: 1%;
+    z-index: 5;
+}
+
+.file{
+    height: 60%;
+    width: 100%;
+    margin-left: 5px;    
+    margin-right: 5px;
+    margin-bottom: 15px;
+    z-index: 0;
+}
+
+.project_1{
+    height: 100%;
+    width: 100%;
+    box-shadow: 1pt -1pt 18pt 1pt var(--file-box-shadow);
+    color: #eee;
+}
+
+.type{
+    display: none;
+    font-family: var(--font-family);
+    font-size: 2em;
+    color: var(--project-header);
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.locs{
+    position: relative;
+    height: 16%;
+    width: 89%;
+    font-weight: bold;
+    margin-left:  9%;
+    margin-top:  3%;
+    margin-bottom: 7%;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    font-family: var(--font-family);
+    font-size: 2.5em;
+    color: var(--project-code);
+}
+
+td, th {
+  border-bottom: 2px solid var(--project-code-line);
+}
+th{
+    text-align: left;
+}
+td{
+    text-align: right;
+    border-radius: 20px;
+}
+
+.locs img{
+    float: right;
+    height: 89%;
+    margin-right: 14%;
+    margin-top: 3%;
+}
+
+.person{
+    position: relative;
+    height: 5%;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.photo{
+    float: left;
+    height: 100%;
+    width: 10%;
+    margin-left: 6.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 50%;
+}
+
+.descriptive{
+    float: left;
+    font-family: var(--font-family);
+    font-size: 2.5em;
+    height:100%;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
+    line-height: 42px;
+    color: var(--person-name);
+}
+
+.descriptive p{
+    font-size: 0.8em;
+    color: var(--person-date);
+}
+
+.description{
+    color: var(--project-description);
+    font-family: var(--font-family);
+    font-size: 3em;
+    z-index: 2;
+}
+
+.banner{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    top: -50%;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(238,238,238,0.9808123078332895) 0%, rgba(255,255,255,1) 100%);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    z-index: 9;
+}
+.bannerText{
+    position: relative;
+    top: -59%;
+    font-family: var(--font-family);
+    font-size: 4em;
+    color: white;
+    z-index: 10;
+}
+
+a{
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
+}
+
+.tags{
+    position: relative;
+    height: 10%;
+    font-family: var(--font-family);
+    font-size: 3em;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-right: 7%;
+    margin-bottom: 13%;
+    background-color: var(--body-background-color);
+}
+
+.tags.conclusion{
+margin-bottom: 8em;
+}
+
+.tags.labeln{
+margin-bottom: 8em;
+}
+
+.tags.location{
+margin-bottom: 11em;
+}
+
+.tag{
+    float: left;
+    position: relative;
+    width: auto;
+    color: var(--skill-text);
+    border: 2pt solid var(--skill-border);
+    background-color: var(--skill-background);
+    border-style: solid;
+    border-radius: 20%;
+    margin: 5px;
+    margin-right: 1%;
+    margin-bottom: 0.1em;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
+}
+
+.footer{
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    top: 95%;
+    z-index: 10;
+}
+
+.footer, .wrapper:after{
+    height: 7em;
+    background: rgb(88,166,158);
+    background: linear-gradient(0deg, rgba(88,166,158,1) 0%, rgba(180,217,213,1) 23%);
+}
+
+.footer-row{
+    margin-top: 0.5em;
+    color: black;
+}
+
+.footer-row img{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-top: 10%;
+}
+
+.footer-index .middle{
+    border-left: 5pt solid white; 
+    border-right: 5pt solid white; 
+}

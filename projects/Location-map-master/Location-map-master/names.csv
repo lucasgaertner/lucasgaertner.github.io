@@ -1,0 +1,340 @@
+CLAS_APOS ,Position (K)
+CLAS_AFA  ,Firma (K)
+CLAS_AKS  ,Kostenstelle (K)
+CLAS_DASSF,Sonstiger Beleg (FIBU) (K)
+CLAS_DASIU,Interne Umbuchung (K)
+CLAS_DAMP ,E-Mail (sonstige) (K)
+CLAS_DAMJ ,E-Mail (Tagebuch) (K)
+CLAS_DAMPR,E-Mail (positionsbezogen) (K)
+CLAS_DAMJA,E-Mail-Anhang (Tagebuch) (K)
+CLAS_DAMPA,E-Mail-Anhang (sonstige) (K)
+CLAS_DAAB ,B/L (AC Containerline) (K)
+CLAS_DAAID,outgoing invoice (K)
+CLAS_DAAIK,Eingangsrechnung (K)
+CLAS_DACON,Vertrag dbs contract (K)
+CLAS_DAADD,Nachtrag dbs contract (K)
+CLAS_DACRD,Vertragsrelevante Unterlagen dbs contract (K)
+CLAS_ACONT,Vertragsakte dbs contract (K)
+CLAS_DASAX,Ausgangsrechnung extern (K)
+CLAS_DASDO,SAP-Dokumente (K)
+C_EMSU    ,E-Mail (sonstige)_User
+C_EMASU   ,E-Mail-Anhang (sonstige)_User
+C_F03     ,Firma_03
+C_FA07    ,Firma_07
+CLAS_DAKBR,B/L (Reeder) (K)
+CLAS_DAKSO,Speditionsauftrag extern (K)
+C_FA10    ,Firma_10
+C_FA15    ,Firma_15
+C_FA19    ,Firma_19
+C_FA31    ,Firma_31
+C_FA33    ,Firma_33
+C_FA35    ,Firma_35
+C_FA57    ,Firma_57
+CLAS_DAECI,Kundenanfrage (K)
+CLAS_DAELA,Ladungsabruf extern (K)
+CLAS_DAEBC,Buchungsbestätigung (Reeder) (K)
+CLAS_DAEWB,AWB (extern) (K)
+CLAS_DAEDG,Dangerous Goods Decl. extern (K)
+CLAS_DAELI,Revers (K)
+CLAS_DAEIC,Importfreigabe (Reeder) (K)
+CLAS_DAENC,NCR (K)
+CLAS_DAELE,Lettres De Engagement (K)
+CLAS_DABCU,Buchungsbestätigung (Kunde) (K)
+CLAS_DABCA,Buchung Reeder/Makler (K)
+CLAS_DAFWR,Spediteurübernahmebescheinigung (K)
+C_FA70    ,Firma_70
+CLAS_DAADG,Dangerous Goods Declaration (K)
+CLAS_DAATO,Speditionsauftrag (K)
+CLAS_DAAAN,Ankunftsavis (K)
+CLAS_DAACO,Kostenavis (K)
+CLAS_DAAFR,Ausfuhrbescheinigung (K)
+CLAS_DAALL,Haftbarhaltung (K)
+CLAS_DAAFO,FOB-Andienung (K)
+CLAS_DAECC,Korrespondenz (Schadensfall) (K)
+CLAS_DAECR,Reklamation (Schadensfall) (K)
+CLAS_DEWFL,Eingangsrechnung-WFL (K)
+CLAS_AEWFL,Eingangsrechnung-WFL-Steuerung (K)
+C_F82     ,Firma_82
+C_FA81    ,Firma_81
+CLAS_DAIMA,IMA Avis (K)
+CLAS_DAAIN,Beantragung (K)
+C_F02     ,Firma_02
+C_F04     ,Firma_04
+C_F08     ,Firma_08
+C_F14     ,Firma_14
+C_F27     ,Firma_27
+C_F29     ,Firma_29
+C_F32     ,Firma_32
+C_F34     ,Firma_34
+C_F37     ,Firma_37
+C_F50     ,Firma_50
+C_F55     ,Firma_55
+C_F77     ,Firma_77
+C_F78     ,Firma_78
+C_F79     ,Firma_79
+C_F83     ,Firma_83
+C_F84     ,Firma_84
+C_F85     ,Firma_85
+C_F86     ,Firma_86
+C_F87     ,Firma_87
+C_F88     ,Firma_88
+C_F89     ,Firma_89
+C_F90     ,Firma_90
+C_F91     ,Firma_91
+C_F92     ,Firma_92
+C_F93     ,Firma_93
+C_F94     ,Firma_94
+C_F95     ,Firma_95
+C_F96     ,Firma_96
+C_F97     ,Firma_97
+C_F98     ,Firma_98
+C_F01     ,Firma_01
+C_F05     ,Firma_05
+C_F06     ,Firma_06
+C_F09     ,Firma_09
+C_F11     ,Firma_11
+C_F12     ,Firma_12
+C_F16     ,Firma_16
+C_F17     ,Firma_17
+C_F20     ,Firma_20
+C_F21     ,Firma_21
+C_F22     ,Firma_22
+C_F23     ,Firma_23
+C_F24     ,Firma_24
+C_F25     ,Firma_25
+C_F28     ,Firma_28
+C_F36     ,Firma_36
+C_F38     ,Firma_38
+C_F39     ,Firma_39
+C_F40     ,Firma_40
+C_F42     ,Firma_42
+C_F48     ,Firma_48
+C_F54     ,Firma_54
+C_F58     ,Firma_58
+C_F59     ,Firma_59
+C_F80     ,Firma_80
+C_F99     ,Firma_99
+C_F56     ,Firma_56
+C_FA71    ,Firma_71
+C_FA76    ,Firma_76
+CLAS_DATFA,TFG-Auftragsbestätigung (K)
+CLAS_DATFU,TFG-Überzeitmeldung (K)
+CLAS_DADUY,Zolldokumente (K)
+CLAS_DAEOA,Auftragsbestätigung (extern) (K)
+CLAS_DAECE,Rückmeldung (extern) (K)
+CON_READ_R,CON_READ_RESTRICTION
+CON_WRIT_R,CON_WRITE_RESTRICTION
+CON_DELE_R,CON_DELETE_RESTRICTION
+CON_NA_DEL,CON_NACH_DELETE_RESTRICTION
+CON_NA_REA,CON_NACH_READ_RESTRICTION
+CON_NA_WRI,CON_NACH_WRITE_RESTRICTION
+CON_UNT_DE,CON_UNT_DELETE_RESTRICTION
+CON_UNT_RE,CON_UNT_READ_RESTRICTION
+CON_UNT_WR,CON_UNT_WRITE_RESTRICTION
+CON_AK_REA,CON_AKTE_READ_RESTRICTION
+CLAS_DASSP,Sonstiger Beleg (positionsbezogen) (K)
+CLAS_DAEPL,Packliste (extern) (K)
+CLAS_DAACI,Handelsrechnung (K)
+CLAS_DAAOD,Sonstiges Dokument (kommerziell, positionsbezogen)
+CLAS_DAACF,Zertifikate (extern) (K)
+CLAS_DADGI,DGIS-Dokument (K)
+DGIS_DEL_R,DGIS_DELETE_RESTRICTION
+DGIS_REA_R,DGIS_READ_RESTRICTION
+DGIS_WRI_R,DGIS_WRITE_RESTRICTION
+CLAS_DDART,SAP-Datenarchivierung (K)
+C_F73     ,Firma_73
+C_FA69    ,Firma_69
+C_FA75    ,Firma_75
+$RIGHTLVL$,$RightsLevel$
+KEMPP     ,EMail-Positionsbezogen-PDF
+CLAS_DAACA,Kalkulation (K)
+CLAS_ATCSF,TCS-Client-Flotte (K)
+CLAS_ATCSN,TCS-Containernummer (K)
+CLAS_DATCS,TCS-Dokumente (K)
+CLAS_DAAAI,Sammelrechnung (K)
+C_FA68    ,Firma_68
+CLAS_DAACS,Consolabrechnung (K)
+CLAS_DEAFB,SAP-EASY (FACHBEREICH) (K)
+CLAS_DEAFI,SAP-EASY (FIBU) (K)
+CLAS_AGEAK,Gesellschaftsakte (K)
+CLAS_DEAGV,SAP-EASY (GUTSCHRIFTEN VOLLTEXT) (K)
+CLAS_DAIWB,AWB (intern) (K)
+CLAS_DALWB,AWB Label (K)
+CLAS_DAMAN,Manifest (K)
+CLAS_DAAVI,Avis (K)
+CLAS_DEGWF,Eingangsgutschrift-WFL (K)
+CLAS_DAKBD,B/L (Draft) (K)
+CLAS_DERXM,Eingangsrechnung-XML (K)
+CLAS_DAADA,Dokumenten-Avise (K)
+CLAS_DAAIO,Individualofferte (K)
+CLAS_DEWFA,Eingangsrechnung-WFL-abgebrochen (K)
+CLAS_DABDT,B/L (Draft) Bedingungen (K)
+CLAS_DAKBT,B/L (Reeder) Bedingungen (K)
+C_F67     ,Firma_67
+CLAS_DAGOV,US-Regierungsdokumente (K)
+CLAS_DAIGB,Verified Gross Mass (K)
+CLAS_DAEWC,VGM Dokumente (K)
+CLAS_DEDUP,Eingangsrechnung-Duplikat (K)
+CLAS_AEDUM,EMail-Position (DUMMYakte) (K)
+C_F26,Firma_26
+C_F43,Firma_43
+C_F44,Firma_44
+C_F45,Firma_45
+C_F46,Firma_46
+CLAS_DAACV,Handelsrechnung Steuer Leschaco China (K)
+CLAS_DAMPT,Massentest E-Mail (positionsbezogen) (K)
+DOC_WITH_C,Dokumente mit Firmen
+C_F60,Firma_60
+C_F61,Firma_61
+C_F66,Firma_66
+C_F0368,Firmen_03
+C_F0168,Firmen_01
+C_F0268,Firmen_02
+C_F0468,Firmen_04
+C_F0568,Firmen_05
+C_F0668,Firmen_06
+C_F0768,Firmen_07
+C_F0868,Firmen_08
+C_F0968,Firmen_09
+C_F1068,Firmen_10
+C_F1168,Firmen_11
+C_F1268,Firmen_12
+C_F1468,Firmen_14
+C_F1568,Firmen_15
+C_F1668,Firmen_16
+C_F1768,Firmen_17
+C_F1968,Firmen_19
+C_F2068,Firmen_20
+C_F2168,Firmen_21
+C_F2268,Firmen_22
+C_F2368,Firmen_23
+C_F2468,Firmen_24
+C_F2568,Firmen_25
+C_F2668,Firmen_26
+C_F2768,Firmen_27
+C_F2868,Firmen_28
+C_F2968,Firmen_29
+C_F3168,Firmen_31
+C_F3268,Firmen_32
+C_F3368,Firmen_33
+C_F3468,Firmen_34
+C_F3568,Firmen_35
+C_F3668,Firmen_36
+C_F3768,Firmen_37
+C_F3868,Firmen_38
+C_F3968,Firmen_39
+C_F4168,Firmen_41
+C_F4068,Firmen_40
+C_F4268,Firmen_42
+C_F4368,Firmen_43
+C_F4468,Firmen_44
+C_F4568,Firmen_45
+C_F4668,Firmen_46
+C_F4768,Firmen_47
+C_F4868,Firmen_48
+C_F4968,Firmen_49
+C_F5068,Firmen_50
+C_F1368,Firmen_13
+C_F1868,Firmen_18
+C_F3068,Firmen_30
+C_F5168,Firmen_51
+C_F5268,Firmen_52
+C_F5368,Firmen_53
+C_F5468,Firmen_54
+C_F5668,Firmen_56
+C_F5768,Firmen_57
+C_F5868,Firmen_58
+C_F5968,Firmen_59
+C_F6068,Firmen_60
+C_F6168,Firmen_61
+C_F6268,Firmen_62
+C_F6368,Firmen_63
+C_F6468,Firmen_64
+C_F6568,Firmen_65
+C_F6668,Firmen_66
+C_F6768,Firmen_67
+C_F6868,Firmen_68
+C_F6968,Firmen_69
+C_F7068,Firmen_70
+C_F7168,Firmen_71
+C_F7268,Firmen_72
+C_F7368,Firmen_73
+C_F7468,Firmen_74
+C_F7568,Firmen_75
+C_F7668,Firmen_76
+C_F7768,Firmen_77
+C_F7868,Firmen_78
+C_F7968,Firmen_79
+C_F8068,Firmen_80
+C_F8168,Firmen_81
+C_F8268,Firmen_82
+C_F8368,Firmen_83
+C_F8468,Firmen_84
+C_F8568,Firmen_85
+C_F8668,Firmen_86
+C_F8768,Firmen_87
+C_F8868,Firmen_88
+C_F8968,Firmen_89
+C_F9068,Firmen_90
+C_F9168,Firmen_91
+C_F9268,Firmen_92
+C_F9368,Firmen_93
+C_F9468,Firmen_94
+C_F9568,Firmen_95
+C_F9668,Firmen_96
+C_F9768,Firmen_97
+C_F9868,Firmen_98
+C_F9968,Firmen_99
+C_F5568,Firmen_55
+CLAS_DSPQM,QM-Dokumente (K)
+CLAS_DATCY,TCS-Bauart (K)
+CLAS_DAEOR,Ladungsbericht USA (K)
+CLAS_DAERS,Eingangsrechnung (SAKO) (K)
+CLAS_DAERP,Eingangsrechnung (SAKO) Rechnungsanhang (K)
+CLAS_DAERA,Eingangsrechnung (SAKO) Wfl-Protokoll (K)
+CLAS_DAARX,Ausgangsrechnung-XML (K)
+CLAS_DAERX,Eingangsrechnung (SAKO) Protokoll (K)
+CLAS_DATCC,TCS-Contract (K)
+CLAS_DABLC,BL/AWB (customs) (K)
+CLAS_DACUL,Customs Letters (K)
+CLAS_DAPER,Permits (K)
+CLAS_DACUR,Customs Regulation (K)
+CLAS_DADER,Delivery Receipt (K)
+CLAS_DAEIR,EIR (K)
+CLAS_DATPP,Third Party Invoice - PDF (K)
+CLAS_DATPX,Third Party Invoice - XML (K)
+CLAS_DAPHO,Photographs (K)
+CLAS_DAPYF,Payment File (K)
+CLAS_DAVAC,Value Calculation (K)
+CLAS_DAVAD,Value Declaration (K)
+CLAS_DACDM,Customs Declarations (K)
+C_F65,Firma_65
+CLAS_DESHI,Shipment Information - EDI (K)
+CLAS_DEBOR,Booking Response - EDI (K)
+CLAS_DEPOR,Port Order Response - EDI (K)
+CLAS_DEBOK,Booking - EDI (K)
+CLAS_DEPOO,Port Order - EDI (K)
+CLAS_DEBOL,Bill of Lading - EDI (K)
+CLAS_DESHR,Shipment Response - EDI (K)
+CLAS_DEVGM,VGM - EDI (K)
+CLAS_DECDE,Customs Declaration - EDI (K)
+CLAS_DEINE,Invoice - EDI (K)
+CLAS_DETOE,Trucking Order - EDI (K)
+CLAS_ACAR,Carrier (K)
+CLAS_DAKON,Kontrakt (K)
+CLAS_DAAME,Amendment (K)
+CLAS_DAEMA,E-Mail (AC Containerline) (K)
+CLAS_AAEMK,A_E-Mail-Klassifizierung (K)
+CLAS_DCLEA,Clearing (K)
+CLAS_DAMIG,E-Mail (INTEGRO) (K)
+CLAS_ACACC,Vertragsakte (AC Containerline) (K)
+CLAS_DAMOV,Moved Documents (K)
+CLAS_$LOG$,Audit-Log (K)
+CLAS_$SET$,$Restriction Set$ (K)
+CLAS_$MSK$,$Masks$ (K)
+CLAS_$MLI$,$Module-Library$ (K)
+CLAS_$MOD$,$Module$ (K)
+CLAS_$MIT$,$Module-Item$ (K)
+CLAS_$ARF$,ContractReminder (K)
+CLAS_$CFG$,$Config-Data$ (K)
+CLAS_$RDO$,$ReadOnly$

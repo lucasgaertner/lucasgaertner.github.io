@@ -1,0 +1,47 @@
+$font: 'Poppins', sans-serif;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    /* background: #555; */
+  }
+  
+
+h1{
+  position: absolute;
+  font-size: 35pt;
+  margin-left: 37%;
+  
+	text-transform: uppercase;
+	background: linear-gradient(to left, #30CFD0 0%, #002244 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 20vw;
+		family: $font;
+	};
+}
+
+  #globe {
+    cursor: move;  
+    background-color: white;
+    height: 90%;
+    margin-top: 4%;
+    margin-left: 6%;
+  }
+  
+  #current {
+    position: absolute;
+    color: #002244;
+    font-family: sans-serif;
+    font-size: 25pt;
+    margin-top: 10%;
+    margin-left: 4%;
+
+  }
+  
+  .country {
+
+    stroke: black;
+    stroke-width: 0.9px;
+  }
