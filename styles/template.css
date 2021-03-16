@@ -156,10 +156,10 @@ a, .logo{
 .link{
     position: relative;
     color: var(--git-status-link);
-    width: 32%;
     float: left;
     padding: 11px 16px;
     margin: 1px;
+    margin-top: -2%;
 }
 .link.intro{
     width: 40%;
