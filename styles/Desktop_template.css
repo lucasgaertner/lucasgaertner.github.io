@@ -153,7 +153,7 @@ body {
     background-color: var(--body-background-color);
     min-height: 100%; 
     margin-bottom: -7em;
-    z-index: -1;
+    z-index: 9;
 }
 .git{
     position: relative;
@@ -170,7 +170,7 @@ body {
     font-size: 3vw;
 }
 
-.logo{
+a, .logo{
     position: relative;
     margin-left: 10%;
     padding-top: 1%;
@@ -275,13 +275,14 @@ td{
     position: relative;
     height: 5%;
     width: 100%;
+    left: 7%;
     margin-TOP: 14%;
     margin-bottom: 8%;
 }
 
 .photo{
     float: left;
-    width: 10%;
+    width: 100%;
     margin-left: 6.5%;
     padding-top: 0%;
     padding-bottom: 1%;
@@ -296,7 +297,14 @@ td{
     margin-top: 2%;
     margin-left: 2%;
     line-height: 42px;
-    color: var(--person-name)
+    color: var(--person-name);
+}
+.descriptive_photo{
+    float: left;
+    height: 100%;
+    width: 5%;
+    margin-top: 2%;
+    margin-right: 1.5%;
 }
 
 .descriptive p{
