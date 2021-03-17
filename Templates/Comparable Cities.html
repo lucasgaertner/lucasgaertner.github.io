@@ -43,8 +43,37 @@
           <div class="descriptive">Gärtner, Lucas<p>Aug 1, 2020 · 1 min read</p></div>
       </div>
       <div class="description">
-        Short vacation travel data are periodic ones. Online travel bookings are increasingly in demand. Therefore, this project serves as the proof to compare cities to their business. In the future, online travel booking suggestions may be selected based on the user’s location. This project proves that we can classify cities based on their stores.
-      </div>
+          
+          “A funfair is always the same”, don’t you wonder why we believe in this and still eat an apple at a new funfair? I glanced at all stores, and ask myself: Is this always the same? The same structure and same shops?
+Try to abstract the funfair with big cities and you got your Aim for your Post. Are we able to compare the biggest cities based on the structure and shops with open source tools?
+   <br><br> Approximation:<br>
+In each big cites there are venues, in these venues you will shops or sometime a venue is a shop as well. Can we unsupervised cluster cities based on their shops and categories?
+Could we identify to travel to cities which are close too each other? Are we able to cluster Cities based on their shops? Let us dive deeper!
+· I used Forsquare API to get the most common venues of given Borough of the biggest cities in Germany
+· Web Scraping from site: https://www.immowelt.de for getting the districts of cities
+· Web scraping form site: https://de.wikipedia.org/ for getting the population
+          <br><br>
+          Methodology:
+As a first step, we retrieved data from the sites and the foursquare API.<br>
+Next, we analyse the data we created on categories and look at a relation between population and shops for the city.
+We also explore city areas that shows similarity based on their shops. Finally, we cluster the cities based on the information of each shop category.
+The whole process allows us to clearly identify which cities can be recommended for persons which likes similarity to his own next city.
+As a Version controll, I used GitHub repository in my study. My master data which has the main components Borough, Latitude and Longitude information of the city.
+        
+        <br>
+          
+          We can see that Germany got many different shop Categories and most of them are overlapping if you are comparing different cities. Do not get confused about the x-axis, I just want to give some examples of our shop categories.
+In summary the biggest Germany got 392 different shops, in any case for the foursquare API.
+          
+          <br><br>
+          
+          Actually we invest much time and money on our food, same for me with the Paradies Apfel….
+Wehave some common venue categories in boroughs. In this reason I used unsupervised learning Method K-means to cluster the boroughs.
+K-means works in iterative steps to perform two tasks:
+- Assign each data point to the closest corresponding centroid.
+- For each centroid, calculate the mean of the values of all the points belonging to it. The mean value becomes the new value of the centroid
+To visualize the geographic details clusters of all shops and districts I used folium.
+        </div>
   
       <div class="tags location">
         <div class="tag"><span><center>Web-Application</center></span></div>
